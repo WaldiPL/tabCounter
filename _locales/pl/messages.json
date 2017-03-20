@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Licznik kart"
+  },
+  "extensionDescription": {
+    "message": "Wyświetla liczbę kart w aktywnym oknie"
+  },
+  "btnTitle": {
+    "message": "Otwartch kart: $1"
+  },
+  "options": {
+    "message": "Opcje"
+  },
+  "bgColor": {
+    "message": "Kolor tła"
+  },
+  "save": {
+    "message": "Zapisz"
+  }
+}

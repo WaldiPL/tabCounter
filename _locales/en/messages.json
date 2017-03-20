@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Tab counter"
+  },
+  "extensionDescription": {
+    "message": "Displays the number of tabs in the active window."
+  },
+  "btnTitle": {
+    "message": "Open tabs: $1"
+  },
+  "options": {
+    "message": "Options"
+  },
+  "bgColor": {
+    "message": "Background color"
+  },
+  "save": {
+    "message": "Save"
+  }
+}

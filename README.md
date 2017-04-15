@@ -13,4 +13,4 @@ Displays the number of tabs in the active window.
 - Context Menu
 
 ## Download
-https://addons.mozilla.org/pl/firefox/addon/tabcounter-1/
+https://addons.mozilla.org/en-us/firefox/addon/tabcounter-1/

@@ -1,14 +1,13 @@
-(function (){
-	browser.tabs.onRemoved.addListener(updateCounter);
+(function(){
+	browser.tabs.onRemoved.addListener(()=>{setTimeout(updateCounter, 100);});
 	browser.tabs.onCreated.addListener(updateCounter);
-	browser.windows.onFocusChanged.addListener(updateCounter)
+	browser.windows.onFocusChanged.addListener(updateCounter);
 	browser.storage.local.get('badgeColor').then(result=>{
 		let bg = result.badgeColor?result.badgeColor:"#333333";
 		browser.browserAction.setBadgeBackgroundColor({
 			color: bg
 		});
 	});
-	updateCounter();
 	browser.contextMenus.removeAll();
 	browser.contextMenus.create({
 		  title: browser.i18n.getMessage("options"),

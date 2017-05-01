@@ -1,11 +1,7 @@
 (function(){
-	const oBody = document.body.innerHTML.toString();
-	const nBody = oBody.replace(/__MSG_(\w+)__/g,(match,s1)=>{
-		return s1 ? browser.i18n.getMessage(s1) : "";
-	});
-	if(nBody!=oBody){
-		document.body.innerHTML = nBody;
-	}
+	document.getElementById("h3options").textContent=browser.i18n.getMessage("options");
+	document.getElementById("colorLabel").textContent=browser.i18n.getMessage("bgColor");
+	document.getElementById("submitSave").textContent=browser.i18n.getMessage("save");
 })();
 
 function saveOptions(e) {

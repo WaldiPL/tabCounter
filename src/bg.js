@@ -1,5 +1,5 @@
 (function(){
-	browser.tabs.onRemoved.addListener(()=>{setTimeout(updateCounter, 100);});
+	browser.tabs.onRemoved.addListener((e,i)=>{updateCounter();if(i)setTimeout(updateCounter,1000);});
 	browser.tabs.onCreated.addListener(updateCounter);
 	browser.windows.onFocusChanged.addListener(updateCounter);
 	browser.storage.local.get('badgeColor').then(result=>{

@@ -1,4 +1,4 @@
-# Tab Counter ![](https://img.shields.io/badge/AMO-v.1.0-blue.svg)
+# Tab Counter ![](https://img.shields.io/badge/AMO-v.1.2-blue.svg)
 Displays the number of tabs in the active window.
 
 ## Screenshot

@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Tab counter"
+  },
+  "extensionDescription": {
+    "message": "Рахує та показує кількість вкладок у активному вікні."
+  },
+  "btnTitle": {
+    "message": "Відкрито вкладок: $1"
+  },
+  "options": {
+    "message": "Налаштування"
+  },
+  "bgColor": {
+    "message": "Колір фону"
+  },
+  "save": {
+    "message": "Зберегти"
+  }
+}

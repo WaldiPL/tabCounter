@@ -1,4 +1,4 @@
-# Tab Counter ![](https://img.shields.io/badge/AMO-v.1.2-blue.svg)
+# Tab Counter ![](https://img.shields.io/badge/AMO-v.1.3-blue.svg)
 Displays the number of tabs in the active window.
 
 ## Screenshot
@@ -13,4 +13,4 @@ Displays the number of tabs in the active window.
 - Context Menu
 
 ## Download
-https://addons.mozilla.org/en-us/firefox/addon/tabcounter-1/
+https://addons.mozilla.org/firefox/addon/tabcounter-1?src=external-github

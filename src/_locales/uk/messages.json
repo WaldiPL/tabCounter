@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Tab counter"
+    "message": "Лічильник вкладок"
   },
   "extensionDescription": {
     "message": "Рахує та показує кількість вкладок у активному вікні."

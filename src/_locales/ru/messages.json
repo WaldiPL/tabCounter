@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Tab counter"
+  },
+  "extensionDescription": {
+    "message": "Считает и показывает количество вкладок в активном окне."
+  },
+  "btnTitle": {
+    "message": "Открыто вкладок: $1"
+  },
+  "options": {
+    "message": "Настройки"
+  },
+  "bgColor": {
+    "message": "Цвет фона"
+  },
+  "save": {
+    "message": "Сохранить"
+  }
+}

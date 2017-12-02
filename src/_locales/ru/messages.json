@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Tab counter"
+    "message": "Счётчик вкладок"
   },
   "extensionDescription": {
     "message": "Считает и показывает количество вкладок в активном окне."

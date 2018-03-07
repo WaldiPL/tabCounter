@@ -20,7 +20,7 @@
 
 function updateCounter(){
 	browser.tabs.query({currentWindow:true}).then(tabs=>{
-		let count=(tabs.length>999)?"999":tabs.length;
+		let count=tabs.length;
 		browser.browserAction.setBadgeText({
 			text:count+""
 		});

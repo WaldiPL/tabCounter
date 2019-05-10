@@ -1,5 +1,5 @@
 (function(){
-	browser.tabs.onRemoved.addListener((e,i)=>{updateCounter();if(i)setTimeout(updateCounter,1000);});
+	browser.tabs.onRemoved.addListener((e,i)=>{updateCounter(false);});
 	browser.tabs.onCreated.addListener(updateCounter);
 	browser.windows.onFocusChanged.addListener(updateCounter);
 	browser.storage.local.get('badgeColor').then(result=>{
@@ -21,6 +21,9 @@
 function updateCounter(){
 	browser.tabs.query({currentWindow:true}).then(tabs=>{
 		let count=tabs.length;
+		if (arguments.length == 1 && typeof arguments[0] == 'boolean' && !arguments[0]) {
+			count--;
+		}
 		browser.browserAction.setBadgeText({
 			text:count+""
 		});

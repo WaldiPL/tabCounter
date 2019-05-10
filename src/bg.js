@@ -8,6 +8,7 @@
 			color: bg
 		});
 	});
+	updateCounter();
 	browser.contextMenus.removeAll();
 	browser.contextMenus.create({
 		  title: browser.i18n.getMessage("options"),

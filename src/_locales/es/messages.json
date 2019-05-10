@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Contador de pestañas"
+  },
+  "extensionDescription": {
+    "message": "Muestra el número de pestañas en la ventana activa."
+  },
+  "btnTitle": {
+    "message": "Pestañas abiertas: $1"
+  },
+  "options": {
+    "message": "Opciones"
+  },
+  "bgColor": {
+    "message": "Color de fondo"
+  },
+  "save": {
+    "message": "Guardar"
+  }
+}

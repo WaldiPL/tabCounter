@@ -1,11 +1,11 @@
 # Tab Counter ![](https://img.shields.io/amo/v/tabcounter-1.svg)
-Displays the number of tabs in the active window.
+Displays the number of tabs in the window.
 
 ## Screenshot
-![](screenshots/1.png)
+![](screenshots/2.png)
 
 ## Requirements
-- Firefox 45+
+- Firefox 57+
 
 ## Permissions
 - Tabs

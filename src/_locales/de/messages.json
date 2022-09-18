@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Tab-Zähler"
+  },
+  "extensionDescription": {
+    "message": "Zeigt die Anzahl der Tabs im aktiven Fenster an."
+  },
+  "btnTitle": {
+    "message": "Offene Tabs: $1"
+  },
+  "options": {
+    "message": "Einstellungen"
+  },
+  "bgColor": {
+    "message": "Hintergrundfarbe"
+  },
+  "save": {
+    "message": "Speichern"
+  }
+}

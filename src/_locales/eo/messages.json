@@ -14,7 +14,37 @@
   "bgColor": {
     "message": "Fonkoloro"
   },
-  "save": {
-    "message": "Konservi"
+  "fontColor": {
+    "message": "Koloro de la teksto"
+  },
+  "fontSize": {
+    "message": "Grando de teksto"
+  },
+  "bold": {
+    "message": "Grasa teksto"
+  },
+  "mode": {
+    "message": "Nombrilo stilo"
+  },
+  "icon": {
+    "message": "Ikono"
+  },
+  "badge": {
+    "message": "Insigno"
+  },
+  "bgStyle": {
+    "message": "Fonstilo"
+  },
+  "rounded": {
+    "message": "Rondeta"
+  },
+  "rectangle": {
+    "message": "Rektangula"
+  },
+  "circle": {
+    "message": "Ronda"
+  },
+  "none": {
+    "message": "Sen fono"
   }
 }

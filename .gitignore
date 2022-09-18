@@ -17,31 +17,18 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
+# This file
+.gitignore
 
-# OSX
-# =========================
+# Archives
+src/src.zip
+src/src.xpi
+*.zip
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Not signed xpi files
+xpi/*.xpi
+!xpi/*signed.xpi
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Backups
+* — kopia
+* — kopia.*

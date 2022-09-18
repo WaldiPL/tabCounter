@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-  </head>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
 <body>
-  <form>
+	<form>
 		<h3 id="h3options"></h3>
-		<table>
-		<tr><td><label id="colorLabel"></label></td><td><input type="color" id="badgeColor"></td></tr>
-		<tr><td colspan="2"><button type="submit" id="submitSave"></button></td></tr>
+		<table id="table">
+			<tr><td><label id="modeLabel"></label></td><td>
+				<select id="mode">
+					<option value="icon"></option>
+					<option value="badge"></option>
+				</select>
+			</td></tr>
+			<tr><td><label id="badgeColorLabel"></label></td><td><input type="color" id="badgeColor"></td></tr>
+			<tr><td><label id="fontColorLabel"></label></td><td><input type="color" id="fontColor"></td></tr>
+			<tr class="onlyIcon"><td><label id="bgStyleLabel"></label></td><td>
+				<select id="bgStyle">
+					<option value="rounded"></option>
+					<option value="rectangle"></option>
+					<option value="circle"></option>
+					<option value="none"></option>
+				</select>
+			</td></tr>
+			<tr class="onlyIcon"><td><label id="fontSizeLabel"></label></td><td><input type="range" min="10" max="18" step="1" id="fontSize"></td></tr>
+			<tr class="onlyIcon"><td><label id="boldLabel"></label></td><td><input type="checkbox" id="bold"></td></tr>
 		</table>
-  </form>
-  <script src="options.js"></script>
+	</form>
+	<script src="options.js"></script>
 </body>
 </html>

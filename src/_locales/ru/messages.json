@@ -3,7 +3,7 @@
     "message": "Счётчик вкладок"
   },
   "extensionDescription": {
-    "message": "Считает и показывает количество вкладок в активном окне."
+    "message": "Считает и показывает количество вкладок в окне."
   },
   "btnTitle": {
     "message": "Открыто вкладок: $1"
@@ -14,7 +14,37 @@
   "bgColor": {
     "message": "Цвет фона"
   },
-  "save": {
-    "message": "Сохранить"
+  "fontColor": {
+    "message": "Цвет текста"
+  },
+  "fontSize": {
+    "message": "Размер текста"
+  },
+  "bold": {
+    "message": "Полужирный текст"
+  },
+  "mode": {
+    "message": "Стиль счетчика"
+  },
+  "icon": {
+    "message": "Иконка"
+  },
+  "badge": {
+    "message": "Значок"
+  },
+  "bgStyle": {
+    "message": "Стиль фона"
+  },
+  "rounded": {
+    "message": "Закругленный"
+  },
+  "rectangle": {
+    "message": "Прямоугольная"
+  },
+  "circle": {
+    "message": "Круглый"
+  },
+  "none": {
+    "message": "Нет фона"
   }
 }

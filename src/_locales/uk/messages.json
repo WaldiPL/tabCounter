@@ -3,7 +3,7 @@
     "message": "Лічильник вкладок"
   },
   "extensionDescription": {
-    "message": "Рахує та показує кількість вкладок у активному вікні."
+    "message": "Рахує та показує кількість вкладок у вікні."
   },
   "btnTitle": {
     "message": "Відкрито вкладок: $1"
@@ -14,7 +14,37 @@
   "bgColor": {
     "message": "Колір фону"
   },
-  "save": {
-    "message": "Зберегти"
+  "fontColor": {
+    "message": "Колір тексту"
+  },
+  "fontSize": {
+    "message": "Розмір тексту"
+  },
+  "bold": {
+    "message": "Напівжирний текст"
+  },
+  "mode": {
+    "message": "Стиль лічильника"
+  },
+  "icon": {
+    "message": "Іконка"
+  },
+  "badge": {
+    "message": "Значок"
+  },
+  "bgStyle": {
+    "message": "Стиль фону"
+  },
+  "rounded": {
+    "message": "Закруглений"
+  },
+  "rectangle": {
+    "message": "Прямокутна"
+  },
+  "circle": {
+    "message": "Круглий"
+  },
+  "none": {
+    "message": "Без фону"
   }
 }

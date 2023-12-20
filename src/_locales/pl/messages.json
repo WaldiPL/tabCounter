@@ -3,7 +3,7 @@
     "message": "Licznik kart"
   },
   "extensionDescription": {
-    "message": "Wyświetla liczbę kart w aktywnym oknie"
+    "message": "Wyświetla liczbę kart w oknie"
   },
   "btnTitle": {
     "message": "Otwartch kart: $1"
@@ -14,7 +14,37 @@
   "bgColor": {
     "message": "Kolor tła"
   },
-  "save": {
-    "message": "Zapisz"
+  "fontColor": {
+    "message": "Kolor tekstu"
+  },
+  "fontSize": {
+    "message": "Rozmiar tekstu"
+  },
+  "bold": {
+    "message": "Pogrubienie tekstu"
+  },
+  "mode": {
+    "message": "Styl licznika"
+  },
+  "icon": {
+    "message": "Ikona"
+  },
+  "badge": {
+    "message": "Plakietka"
+  },
+  "bgStyle": {
+    "message": "Styl tła"
+  },
+  "rounded": {
+    "message": "Zaokrąglony"
+  },
+  "rectangle": {
+    "message": "Prostokątny"
+  },
+  "circle": {
+    "message": "Okrągły"
+  },
+  "none": {
+    "message": "Brak tła"
   }
 }

@@ -1,0 +1,50 @@
+body{
+	font-size:15px;
+}
+
+table.badge .onlyIcon{
+	opacity:.5;
+	pointer-events:none;
+}
+
+select{
+	min-height:32px;
+	border:1px solid transparent;
+	border-radius:4px;
+	background-color:#cfcfd854;
+	padding:7px 15px;
+	font-size:1em;
+	width:160px;
+}
+
+input[type="color"]{
+	padding:6px;
+	width:50px;
+	min-height:32px;
+	border:1px solid transparent;
+	border-radius:4px;
+	background-color:#cfcfd854;
+}
+
+select:hover,input[type="color"]:hover{
+	background-color:#cfcfd8a8;
+}
+
+select:active,input[type="color"]:active{
+	background-color:#cfcfd8;
+}
+
+input[type=checkbox]{
+	height:16px;
+	width:16px;
+}
+
+input[type=range]{
+	width:160px;
+	margin:0;
+}
+
+td{
+	height:42px;
+	min-width:160px;
+}

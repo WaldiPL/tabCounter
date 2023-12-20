@@ -3,7 +3,7 @@
     "message": "Contador de pestañas"
   },
   "extensionDescription": {
-    "message": "Muestra el número de pestañas en la ventana activa."
+    "message": "Muestra el número de pestañas en la ventana."
   },
   "btnTitle": {
     "message": "Pestañas abiertas: $1"
@@ -14,7 +14,37 @@
   "bgColor": {
     "message": "Color de fondo"
   },
-  "save": {
-    "message": "Guardar"
+  "fontColor": {
+    "message": "Color del texto"
+  },
+  "fontSize": {
+    "message": "Tamaño del texto"
+  },
+  "bold": {
+    "message": "Texto en negrita"
+  },
+  "mode": {
+    "message": "Estilo contador"
+  },
+  "icon": {
+    "message": "Icono"
+  },
+  "badge": {
+    "message": "Insignia"
+  },
+  "bgStyle": {
+    "message": "Estilo de fondo"
+  },
+  "rounded": {
+    "message": "Redondeado"
+  },
+  "rectangle": {
+    "message": "Rectangular"
+  },
+  "circle": {
+    "message": "Redondo"
+  },
+  "none": {
+    "message": "Sin fondo"
   }
 }

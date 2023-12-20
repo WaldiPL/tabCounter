@@ -3,7 +3,7 @@
     "message": "Tab counter"
   },
   "extensionDescription": {
-    "message": "Displays the number of tabs in the active window."
+    "message": "Displays the number of tabs in the window."
   },
   "btnTitle": {
     "message": "Open tabs: $1"
@@ -14,7 +14,37 @@
   "bgColor": {
     "message": "Background color"
   },
-  "save": {
-    "message": "Save"
+  "fontColor": {
+    "message": "Text color"
+  },
+  "fontSize": {
+    "message": "Text size"
+  },
+  "bold": {
+    "message": "Bold text"
+  },
+  "mode": {
+    "message": "Counter style"
+  },
+  "icon": {
+    "message": "Icon"
+  },
+  "badge": {
+    "message": "Badge"
+  },
+  "bgStyle": {
+    "message": "Background style"
+  },
+  "rounded": {
+    "message": "Rounded"
+  },
+  "rectangle": {
+    "message": "Rectangle"
+  },
+  "circle": {
+    "message": "Circle"
+  },
+  "none": {
+    "message": "No background"
   }
 }
